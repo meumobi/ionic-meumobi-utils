@@ -1,10 +1,12 @@
 {
-  "name": "ionic-module-template",
-  "version": "0.0.12",
-  "description": "A template for creating reusable module for Angular 2 and Ionic 2",
+  "name": "ionic-meumobi-utils",
+  "version": "0.0.6",
+  "description": "A package to share generic modules between ionic apps",
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
-  "files": "dist",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "ngc": "ngc",
     "build": "rm -rf aot dist && npm run ngc",
@@ -12,15 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/driftyco/ionic-module-template.git"
+    "url": "git+https://github.com/meumobi/ionic-meumobi-utils.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["ionic", "files", "angular2"],
+  "author": "meumobi.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/driftyco/ionic-module-template/issues"
+    "url": "https://github.com/meumobi/ionic-meumobi-utils/issues"
   },
-  "homepage": "https://github.com/driftyco/ionic-module-template#readme",
+  "homepage": "https://github.com/meumobi/ionic-meumobi-utils#readme",
   "devDependencies": {
     "@angular/common": "^4.0.0",
     "@angular/compiler": "^4.0.0",
@@ -32,5 +34,15 @@
     "zone.js": "^0.8.4",
     "rxjs": "^5.4.0",
     "typescript": "^2.3.4"
+  },
+  "dependencies": {
+    "@ionic-native/core": "^4.5.3",
+    "@ionic-native/file": "^4.5.3",
+    "@ionic-native/file-opener": "^4.5.3",
+    "@ionic-native/file-transfer": "^4.5.3",
+    "@ionic-native/in-app-browser": "^4.5.3",
+    "@ionic/storage": "^2.0.1",
+    "ionic-angular": "^3.9.2",
+    "ts-md5": "^1.2.4"
   }
 }
