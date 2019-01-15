@@ -1,6 +1,6 @@
 {
   "name": "ionic-meumobi-utils",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A package to share generic modules between ionic apps",
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
@@ -16,7 +16,11 @@
     "type": "git",
     "url": "git+https://github.com/meumobi/ionic-meumobi-utils.git"
   },
-  "keywords": ["ionic", "files", "angular2"],
+  "keywords": [
+    "ionic",
+    "files",
+    "angular2"
+  ],
   "author": "meumobi.com",
   "license": "MIT",
   "bugs": {
@@ -24,24 +28,24 @@
   },
   "homepage": "https://github.com/meumobi/ionic-meumobi-utils#readme",
   "devDependencies": {
-    "@angular/common": "^4.0.0",
-    "@angular/compiler": "^4.0.0",
-    "@angular/compiler-cli": "^4.0.0",
-    "@angular/core": "^4.0.0",
-    "@angular/platform-browser": "^4.0.0",
-    "@angular/platform-browser-dynamic": "^4.0.0",
+    "@angular/common": "^5.0.0",
+    "@angular/compiler": "^5.0.0",
+    "@angular/compiler-cli": "^5.0.0",
+    "@angular/core": "^5.0.0",
+    "@angular/platform-browser": "^5.0.0",
+    "@angular/platform-browser-dynamic": "^5.0.0",
     "@types/node": "^6.0.60",
     "zone.js": "^0.8.4",
-    "rxjs": "^5.4.0",
+    "rxjs": "^5.5.0",
     "typescript": "^2.3.4"
   },
   "dependencies": {
-    "@ionic-native/core": "^4.5.3",
-    "@ionic-native/file": "^4.5.3",
-    "@ionic-native/file-opener": "^4.5.3",
-    "@ionic-native/file-transfer": "^4.5.3",
-    "@ionic-native/in-app-browser": "^4.5.3",
-    "@ionic/storage": "^2.0.1",
+    "@ionic-native/core": "4.7.0",
+    "@ionic-native/file": "4.7.0",
+    "@ionic-native/file-opener": "4.7.0",
+    "@ionic-native/file-transfer": "4.7.0",
+    "@ionic-native/in-app-browser": "4.7.0",
+    "@ionic/storage": "^2.1.3",
     "ionic-angular": "^3.9.2",
     "ts-md5": "^1.2.4"
   }
